@@ -1,0 +1,199 @@
+.editWorkflowZoomTools {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.editWorkflowZoomButton {
+    margin: 0px 5px;
+    float: left;
+}
+
+.editWorkflowZoomButton img {
+    width: 30px;
+    height: 30px;
+    box-shadow: 5px 5px 2px #f1f4f8;
+    border-radius: 5px;
+    background: #ffffff;
+
+}
+
+.editWorkflowUpperDiv {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    bottom: 160px;
+}
+
+.editWorkflowToolboxSectionDiv {
+    margin-top: 10px;
+    margin-Bottom: 20px;
+}
+
+.editWorkflowToolboxSectionTitleDiv {
+    border-bottom: 1px solid #eeeeee;
+    text-transform: uppercase;
+}
+
+.editWorkflowToolboxSectionTitle {
+    margin-Left: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.editWorkflowToolboxTaskDiv {
+    cursor: pointer;
+    min-height: 30px;
+}
+
+    .editWorkflowToolboxTaskDiv:hover {
+        background-color: #E8E8E8;
+    }
+
+.editWorkflowToolboxTaskName {
+    font-size: .8em;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.editWorkflowProcessView {
+    position: absolute;
+    left: 201px;
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.editWorkflowLowerDiv {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.editWorkflowTaskList {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 30%;
+    top: 64px;
+    overflow: auto;
+}
+
+
+.viewWorkflowTaskList {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: auto;
+}
+
+/*.workflowTaskListTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.workflowTaskListTableRowHeader {
+    background: #126298;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.workflowTaskListTableRow:hover {
+    background: #f1f4f8;
+    cursor: pointer;
+}
+
+.workflowTaskListTableRow_selected {
+    background: #DDF5FF;
+}*/
+
+.workflowTaskListTableCellIcon {
+    width: 50px;
+}
+
+.workflowTaskListIcon {
+    max-width: 18px;
+    max-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.workflowTaskListTippyIcon {
+    max-width: 18px;
+    max-height: 18px;
+    position: relative;
+    margin-left: 8px;
+    top:4px;
+}
+
+.editWorkflowTaskDetails {
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    right: 0px;
+    top: 0px;
+    padding-left: 13px;
+    overflow: auto;
+}
+
+.toolbarLink {
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+/* Labels (Jobs) */
+.labels 
+{
+    font-size: .9em;
+    padding-right: 5px;
+}
+
+.labelstitle 
+{
+    height: 41px;
+    line-height: 40px;
+    border-bottom: 1px solid #cfd7de;
+}
+
+.labelslinks 
+{
+    float: right;
+    font-size: .85em;
+    display: none;
+}
+
+.labelslinks a 
+{
+    margin-left: 10px;
+}
+
+.label 
+{
+    line-height: 20px;
+    padding: 2px;
+    margin: 2px 0px;
+}
+
+.label:hover 
+{
+    line-height: 20px;
+    background: #DDF5FF;
+    padding: 2px;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+
+.labelselected 
+{
+    line-height: 20px;
+    background: #DDF5FF;
+    padding: 2px;
+    margin: 2px 0px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Created by James Olien and Jared Mello -->
+
+
+<html lang="en-US" class="nw" style="height: auto;">
+
+ <head>
+	<meta charset="UTF-8">
+	<title>Northern Wind Packaging</title>
+	<link rel="stylesheet" href="css/packagingPortal.css">
+	
+ </head>
+ <body>
+	<div id="page-container clearfix et_menu_container">
+		<div class="logo_container">
+			<span class="logo_helper"></span>
+			<a href="Packaging Template.html">
+				<img src="img/northernwindlogo.png" alt="Northern Wind Seafood" id="logo" data-height-percentage="91" data-actualy-width="350" data-actual-height="131">
+			</a>
+		</div>
+	</div>
+	<form>
+		<div class="pdfViewer">
+		<p>Please Choose the Version of Artwork Here</p>
+		<form list="/action_page.php">
+			<input type="file" id="myFile" name="filename">
+			<input type="submit">
+		</form>
+		</div>
+		<div style="font-size: 8vw;">
+			<embed type="application/pdf" src="Final Art and Color Process - 16oz - Open Nature   - proof report (1).pdf" style="width:90%; height:620px" ></embed>
+		</div>
+		<div class="notes">
+			<form>
+				<fieldset>
+					<legend>Notes and Comments</legend>
+					<label for="fullName">Full Name:</label>
+					<input type="text" id="fullName" name="fullName">
+					<label for="company">Company:</label>
+					<input type="text" id"company" name="company"><br>
+					<label for="comment">Comments or Concern</label>
+					<input type="text" id="comment" name="commnent"><br>
+					<label for="status">Accept or Reject:</label>
+					<select id="status" name="status">
+					<option value="Accept">Accept</option>
+					<option value="Reject">Reject</option>
+					<input type="submit">
+				</fieldset>				
+			</form>
+		</div>
+		</div>
+	</form>
+	<!-- PDF Viewer -->
+	
+	<!-- Form is used to upload information and check off steps -->
+
+ </body>
+  
+ <footer id="main-footer">Copyright Northern Wind Seafood, Inc.  Web design by James Olien</footer>
+	<!-- Copyright Northern Wind Seafood, Inc.    Web design by James Olien -->
+</html>

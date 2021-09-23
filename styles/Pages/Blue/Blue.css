@@ -1,0 +1,37 @@
+body {
+}
+
+.wfIcon{margin:0px 1px 0 0;max-width:17px; height:17px;/*width:23px; height:20px;*/ background:none;display:inline-block}
+.wfIcon.ready{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 0 no-repeat;}
+.wfIcon.inprogress{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 0 no-repeat;}
+.wfIcon.inprogress-atrisk{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -46px no-repeat;}
+.wfIcon.inprogress-late{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -93px no-repeat;width:17px;}
+.wfIcon.draft{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -139px no-repeat;}
+.wfIcon.draft-late{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -186px no-repeat;}
+.wfIcon.complete{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -233px no-repeat;}
+.wfIcon.complete-late{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -280px no-repeat;}
+.wfIcon.approved{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -325px no-repeat;}
+.wfIcon.approved-late{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -372px no-repeat;}
+.wfIcon.rejected{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -421px no-repeat;}
+.wfIcon.suspended{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -468px no-repeat;}
+.wfIcon.cancelled{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -514px no-repeat;}
+.wfIcon.marker{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -875px no-repeat;}
+.wfIcon.bypass{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -769px no-repeat;}
+.wfIcon.bypass-future{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -820px no-repeat;}
+.wfIcon.forwardedOut{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -563px no-repeat;}
+.wfIcon.forwardedIn{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -615px no-repeat;}
+.wfIcon.delegated{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -666px no-repeat;}
+.wfIcon.escalated{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -717px no-repeat;}
+.wfIcon.proxied{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -1016px no-repeat;}
+.wfIcon.defaultAssignee{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -925px no-repeat;}
+
+
+.wfIcon.replicated{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -982px no-repeat;}
+
+
+.wfIcon.date-forecast{background:transparent url(/VproofWorkflow/images/Blue/icon_shared.gif) 0 -936px no-repeat;}
+.wfIcon.date-baseline{background:transparent url(/VproofWorkflow/images/Blue/icon_shared.gif) 0 -993px no-repeat;}
+.wfIcon.date-actual{background:transparent url(/VproofWorkflow/images/Blue/icon_shared.gif) 0 -955px no-repeat;}
+.wfIcon.date-dead{background:transparent url(/VproofWorkflow/images/Blue/icon_shared.gif) 0 -975px no-repeat;}
+
+.wfIcon.user-enabled{background:transparent url(/VproofWorkflow/images/Blue/icon_status.gif) 0 -1071px no-repeat;}

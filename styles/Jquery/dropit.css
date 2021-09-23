@@ -1,0 +1,84 @@
+/*
+ * Dropit v1.1.0
+ * http://dev7studios.com/dropit
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* These styles assume you are using ul and li */
+.dropit {
+    list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 150px;
+    list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #333333;
+	color: #ffffff;
+	border: 1px solid #676767;
+	font-size:.80em;
+	max-height:450px;
+}
+
+.dropit .dropit-submenu div
+{
+	color: #ffffff;
+	line-height:20px;
+	padding: 5px;
+	cursor:pointer;
+	text-align:left;
+}
+
+.dropit .dropit-submenu div:hover
+{
+	background: #0C2F68;
+}
+.dropit .dropit-submenu-right {
+    position: absolute;
+    top: 100%;
+    right: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 150px;
+    list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #333333;
+	color: #ffffff;
+	border: 1px solid #676767;
+	font-size:.80em;
+	overflow:auto;
+	max-height:450px
+}
+
+.dropit .dropit-submenu-right div
+{
+	color: #ffffff;
+	line-height:20px;
+	padding: 5px;
+	cursor:pointer;
+	text-align:left;
+}
+
+.dropit .dropit-submenu-right div:hover
+{
+	background: #0C2F68;
+}
+
+.dropit-submenu-selected
+{
+	background: #0747af;
+}
+
+.dropit .dropit-open .dropit-submenu .dropit-submenu-right { display: block; }

@@ -1,0 +1,81 @@
+progress 
+{
+    background-color: #e0e0e0;
+    color:darkblue;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    width: 100%;
+}
+progress::-webkit-progress-bar 
+{
+    background-color: #e0e0e0;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    width: 100%;
+}
+progress::-webkit-progress-value 
+{
+    background-color: #e0e0e0;
+    color: darkblue;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+    background-image:
+        -webkit-linear-gradient(
+            0deg, 
+            rgb(80, 216, 247), 
+            rgba(10, 38, 188, 0.97) );
+	   /*-webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);*/
+}
+progress::-moz-progress-bar 
+{
+    background-color: #e0e0e0;
+    color: darkblue;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    background-image:
+    -moz-linear-gradient(
+      0deg, 
+      rgb(80, 216, 247), 
+      rgba(10, 38, 188, 0.97) 
+    );
+    width: 100%;
+}
+
+.fileTransferDialog 
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    width: 600px;
+}
+
+.fileListCell 
+{
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+
+.uploadUIBottomSeparator 
+{
+    position: absolute;
+    bottom: 33px;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+}
